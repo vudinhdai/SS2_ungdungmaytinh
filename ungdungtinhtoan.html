@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ungdung </title>
+</head>
+<body>
+<h1> máy tính </h1>
+<input id ="so1" type ="number">
+<input id ="so2" type ="number">
+<br>
+<button type="button" id = "add" onclick="add()">Addition(+)</button>
+<button type="button" id = "sub" onclick="sub()"> Subtraction (-)</button>
+<button type="button" id = "mul" onclick=" mul()">Multiplication(x)</button>
+<button type="button" id  = "div" onclick="div()">division(/) </button>
+<br>
+result:
+<p id="demo"></p>
+<script>
+    function add() {
+        let x1 = parseFloat(document.getElementById("so1").value);
+        let  x2 = parseFloat(document.getElementById("so2").value);
+        document.getElementById("demo").innerHTML=x1+x2;
+
+    }
+</script>
+
+
+
+
+</body>
+</html>"#S22_ungdungmaytinh")
